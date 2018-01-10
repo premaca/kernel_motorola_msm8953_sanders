@@ -1774,7 +1774,6 @@ static int ffs_func_eps_enable(struct ffs_function *func)
 	spin_lock_irqsave(&func->ffs->eps_lock, flags);
 	do {
 		struct usb_endpoint_descriptor *ds;
-		struct usb_ss_ep_comp_descriptor *comp_desc = NULL;
 		int needs_comp_desc = false;
 		int desc_idx;
 
