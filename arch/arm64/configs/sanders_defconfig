@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 3.18.31 Kernel Configuration
+# Linux/arm64 3.18.91 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -952,7 +952,6 @@ CONFIG_NET_SCH_FIFO=y
 # CONFIG_BATMAN_ADV is not set
 # CONFIG_OPENVSWITCH is not set
 # CONFIG_VSOCKETS is not set
-# CONFIG_NETLINK_MMAP is not set
 # CONFIG_NETLINK_DIAG is not set
 # CONFIG_NET_MPLS_GSO is not set
 # CONFIG_HSR is not set
@@ -3851,7 +3850,6 @@ CONFIG_STAGING=y
 # CONFIG_IIO_PERIODIC_RTC_TRIGGER is not set
 # CONFIG_IIO_SIMPLE_DUMMY is not set
 # CONFIG_FB_XGI is not set
-# CONFIG_BCM_WIMAX is not set
 # CONFIG_FT1000 is not set
 
 #
@@ -3865,6 +3863,7 @@ CONFIG_STAGING=y
 #
 CONFIG_ANDROID=y
 CONFIG_ANDROID_BINDER_IPC=y
+CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
 CONFIG_ASHMEM=y
 # CONFIG_ANDROID_LOGGER is not set
 CONFIG_ANDROID_TIMED_OUTPUT=y
@@ -4751,6 +4750,7 @@ CONFIG_EARLY_PRINTK=y
 # Security options
 #
 CONFIG_KEYS=y
+CONFIG_KEYS_COMPAT=y
 # CONFIG_PERSISTENT_KEYRINGS is not set
 # CONFIG_BIG_KEYS is not set
 # CONFIG_ENCRYPTED_KEYS is not set
